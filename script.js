@@ -1,7 +1,7 @@
 let display=document.getElementById("result");
 let buttons=document.querySelectorAll("button");
 let buttonArray=Array.from(buttons);
-let string="0";
+let string="";
 buttonArray.forEach(btn=>{
     
     btn.addEventListener("click",(event)=>{

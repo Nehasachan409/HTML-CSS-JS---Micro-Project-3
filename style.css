@@ -12,29 +12,43 @@ body,html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100%;
-
+    /* justify-content: center; */
+    /* height: 100%; */
+    width: 516px;
+    margin: auto;
 }
+h3{
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin-right: auto;
+}
+
 input{
+    height:142px;
     border-radius: 12px;
-    width: 536px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background: rgba(24, 31, 50, 1);
     font-family: Segoe UI;
-   font-size: 55px;
-   font-weight: 900;
-   line-height: 74px;
-   text-align: right;
-color: white;
-
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 74px;
+    text-align: right;
+    color: white;
+    padding-right: 20px;
+    width: 100%;
 }
 .inner-container{
     margin-top:10px;
-    width: 536px;
+    width: 100%;
     background: rgba(37, 45, 68, 1);
     border-radius: 12px;
-
 }
 .inner{
     padding: 30px 25px ;
@@ -61,12 +75,17 @@ height: 60px;
      width: 222.44px;
     height: 60px;
     border-radius: 11.52px;
+  
  }
+.row.col2{
+    margin-bottom: 0px;
+}
+ 
  .forcolor button{
     background-color: rgba(100, 114, 153, 1);
     
 }
 .color button{
     background-color:rgba(209, 63, 48, 1);
-    ;
+    
 }
